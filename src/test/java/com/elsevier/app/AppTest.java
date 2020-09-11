@@ -9,8 +9,8 @@ import static org.hamcrest.Matchers.*;
 public class AppTest 
 {
 
-    final String URLTest = "http://ergast.com/api/blalbla/f1/2017/circuits.json";
-    final String NewAPI1 = "url/APINEW/blabla";
+//    final String URLTest = "http://ergast.com/api/blalbla/f1/2017/circuits.json";
+//    final String NewAPI1 = "url/APINEW/blabla";
 
     @Test
     public void shouldAnswerWithTrue()
@@ -47,10 +47,10 @@ public class AppTest
 //        doGetRequest("http://ergast.com/api/f1/2017/circuits.json").expect("200",var1="20");
 //    }
 //
-    @Test
-    public void checkAPI1For19() {
-        doGetRequest(URLTest).expect("200",var1="19");
-    }
+//    @Test
+//    public void checkAPI1For19() {
+//        doGetRequest(URLTest).expect("200",var1="19");
+//    }
 //
 //    @Test
 //    public void checkAPI1For400() {
