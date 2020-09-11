@@ -1,6 +1,4 @@
-# testing_template
-
-# Requirements:
+# Running requirements:
 Maven
 
 Java
